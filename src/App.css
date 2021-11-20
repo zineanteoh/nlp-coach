@@ -1,6 +1,11 @@
 body {
 	background-color: #00cfff;
 	color: #1c304a;
+	font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+	font-weight: bold;
 }
 
 .app {
