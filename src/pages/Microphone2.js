@@ -20,14 +20,14 @@ export const Microphone2 = () => {
 
 	return (
 		<div>
-			<p>Microphone: {listening ? "on" : "off"}</p>
+			<p>Toggle Microphone:</p>
 			<button
 				onTouchStart={startListening}
 				onMouseDown={startListening}
 				onTouchEnd={SpeechRecognition.stopListening}
 				onMouseUp={SpeechRecognition.stopListening}
 			>
-				Hold to talk
+				{listening ? "Stop" : "Start"}
 			</button>
 			<p>{transcript}</p>
 		</div>
