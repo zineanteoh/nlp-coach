@@ -1,13 +1,13 @@
 import React from "react";
 import "./Home.css";
-import { Microphone } from "./Microphone";
-import { Microphone2 } from "./Microphone2";
+import { SpeechWave } from "./SpeechWave";
+import { ReactSpeechRecognition } from "./ReactSpeechRecognition";
 
 export const Home = () => {
 	return (
 		<div className="container">
-			{/* <Microphone /> */}
-			<Microphone2 />
+			{/* <SpeechWave /> */}
+			<ReactSpeechRecognition />
 		</div>
 	);
 };

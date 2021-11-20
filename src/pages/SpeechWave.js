@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { ReactMic } from "react-mic";
 
-export const Microphone = () => {
+export const SpeechWave = () => {
 	const [record, setRecord] = useState(false);
 
 	const startRecording = () => {
