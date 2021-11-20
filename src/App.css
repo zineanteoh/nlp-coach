@@ -1,11 +1,12 @@
 body {
-	background-color: #00cfff;
+	background-color: #00d0ff;
 	color: #1c304a;
 	font-family: "Open Sans", sans-serif;
 }
 
 h1 {
 	font-weight: bold;
+	margin-top: -5px;
 }
 
 .app {
@@ -13,4 +14,9 @@ h1 {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+.botImg {
+	width: 100px;
+	margin-top: 20px;
 }
